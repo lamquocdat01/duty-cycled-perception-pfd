@@ -1,0 +1,17 @@
+# Third-party imagery, ground truth and cached per-frame verdicts are never republished.
+results/det_cache/
+*.npz
+data/*
+!data/*.md
+_zips/
+*.tar.gz
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.ppm
+*.xml
+__pycache__/
+*.pyc
+*.aux
+*.log
