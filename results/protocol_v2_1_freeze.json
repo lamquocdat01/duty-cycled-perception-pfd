@@ -1,0 +1,18 @@
+{
+ "file": "EVAL_PROTOCOL_V2_1.md",
+ "sha256": "7432cffcfc7124488e2cd991fbfbf1b10e92674c7e5088dab48da73d96f77efb",
+ "frozen_at_utc": "2026-09-22T00:14:03+00:00",
+ "n_bytes": 20182,
+ "amendment": "2-prime",
+ "previous": {
+  "sha256": "1884a3b5c3d76a1b70897666a329cb0ba03ff468c4091fa136a7e4c3c03fea0c",
+  "frozen_at_utc": "2026-09-21T14:52:19+00:00",
+  "amendment": 2
+ },
+ "supersedes": {
+  "file": "EVAL_PROTOCOL_V2.md",
+  "sha256": "874e7cb4b09c3654ab78b33b493500476eae47662516b8c081cc6064ab570a00",
+  "frozen_at_utc": "2026-09-21T09:50:36+00:00"
+ },
+ "amendment_reason": "Section 11 rewritten as Amendment 2': the viewpoint gate (h/w >= 1) is WITHDRAWN and no site is excluded. An independent audit showed the gate's evidence compared annotated people against a static false positive -- detector recall at CAVIAR-INRIA is 0.000-0.097 (median 0.008) at IoU >= 0.3 and 25-83 % of its detections fall in one cell -- so the low detection rate there is real detector performance and excluding the site was selection on an outcome. Replacing it: both sites are primary and reported per site; the lobby is stated as an ODD finding; a gt_matched alarm mode and a static-false-positive audit are added FOR EVERY corpus. This amendment was written after both sites' results existed, which section 11 discloses; it removes an exclusion and adds reporting, and changes no estimator, threshold, detector setting or zone polygon. Extended the same day with the audit's two operative tests, which the first draft of this amendment had left implicit: a stationary false positive is declared by the share of FRAMES in which the modal cell repeats (> 50 %), and the audit records whether that cell lies inside a danger zone; both alarm rules are reported at 0.5 s and 1 s; the duration law is reported per site. Clarified 2026-09-22: the persistence test names a PERSISTENT DETECTION CLUSTER, and a stationary false positive additionally requires a cluster match rate below 0.5 -- because MOT17-04's persistent cluster is 97 % matched, i.e. a stationary person, while MOT17-02's and MOT17-09's are 0 % matched."
+}

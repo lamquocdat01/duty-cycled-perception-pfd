@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or the derived tables, please cite the article."
+title: "Duty-cycled perception monitors: probability of failure on demand"
+abstract: >-
+  Code, frozen evaluation protocol and event-level derived data for a delay-time
+  inspection model of duty-cycled machine-learning perception monitors, with an
+  event-to-event law of the per-invocation detection probability.
+type: software
+authors:
+  - family-names: "Lam Quoc"
+    given-names: "Dat"
+    orcid: "https://orcid.org/0009-0004-5432-9343"
+    affiliation: "FPT School of Business and Technology (FSB), FPT University, Ho Chi Minh City, Vietnam"
+    email: "lamquocdat@gmail.com"
+license: MIT
+version: "2.0.0"
+date-released: "2026-09-22"
+keywords:
+  - reliability
+  - probability of failure on demand
+  - delay-time model
+  - periodic inspection
+  - machine-learning perception
+  - safety integrity level

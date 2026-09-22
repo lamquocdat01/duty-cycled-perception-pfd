@@ -1,0 +1,18 @@
+{
+ "n_cells": 348,
+ "n_per_cell": 200000,
+ "n_events": 69600000,
+ "n_fail": 0,
+ "worst_abs_err": 0.0030776799999999993,
+ "worst_z": 3.438839825143086,
+ "worst_cell": {
+  "model": "single",
+  "p": 0.6,
+  "K": 5,
+  "D": 40,
+  "beta": 0.5
+ },
+ "max_abs_err": 0.0030776799999999993,
+ "seed": 20260921,
+ "tolerance": "max(4 standard errors, 0.002)"
+}

@@ -1,0 +1,13 @@
+{
+ "architecture": "fasterrcnn_mobilenet_v3_large_320_fpn",
+ "weights_enum": "FasterRCNN_MobileNet_V3_Large_320_FPN_Weights.COCO_V1",
+ "weights_url": "https://download.pytorch.org/models/fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+ "weights_file": "C:\\Users\\Admin\\.cache\\torch\\hub\\checkpoints\\fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+ "weights_sha256": "907ea3f91ff92242bc1baea8049276a3e76bca48ce7560bd268cc029f37977b5",
+ "torch": "2.2.0+cpu",
+ "torchvision": "0.17.0+cpu",
+ "score_floor_cached": 0.25,
+ "seed": 20260921,
+ "device": "cpu",
+ "coco_person_label": 1
+}

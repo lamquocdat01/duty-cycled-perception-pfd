@@ -1,0 +1,12 @@
+{
+ "file": "EVAL_PROTOCOL_V2.md",
+ "sha256": "874e7cb4b09c3654ab78b33b493500476eae47662516b8c081cc6064ab570a00",
+ "frozen_at_utc": "2026-09-21T09:50:36+00:00",
+ "n_bytes": 15025,
+ "amendment": 1,
+ "previous": {
+  "sha256": "a485a0ac4ae027cc705a21cdbec333542bbe67d25daf52ce226a588ef7161eea",
+  "frozen_at_utc": "2026-09-21T09:04:15+00:00"
+ },
+ "amendment_reason": "Section 11 row 2: corrected a wrong factual statement about the URFD ADL label files; no estimator definition changed."
+}

@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+opencv-python>=4.8
+torch>=2.0
+torchvision>=0.15
+pypdf>=4.0
