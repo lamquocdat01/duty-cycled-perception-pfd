@@ -1,0 +1,663 @@
+{
+ "machine": {
+  "cpu": "11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz",
+  "memory": "32 GB",
+  "device": "CPU only (no GPU used)",
+  "torch": "2.2.0+cpu",
+  "torchvision": "0.17.0+cpu",
+  "provenance": "The timing run (2026-09-21) did not log the CPU model. The machine was identified on 2026-10-12 by querying the same computer (Win32_Processor); it is the only machine used for this analysis. torch/torchvision are from detector_manifest.json written by the same run."
+ },
+ "note": "Wall-clock seconds per sequence as recorded by code/run_detector.py: JPEG decoding (from the archive), preprocessing, inference and post-processing, one frame at a time. s_per_frame = seconds / n_frames. Added to the default branch after the tagged release v2.0.0-submission.",
+ "sequences": {
+  "MOT17Det__MOT17-02": {
+   "n_frames": 600,
+   "seconds": 138.4,
+   "s_per_frame": 0.2306
+  },
+  "MOT17Det__MOT17-04": {
+   "n_frames": 1050,
+   "seconds": 257.0,
+   "s_per_frame": 0.2448
+  },
+  "MOT17Det__MOT17-05": {
+   "n_frames": 837,
+   "seconds": 159.7,
+   "s_per_frame": 0.1909
+  },
+  "MOT17Det__MOT17-09": {
+   "n_frames": 525,
+   "seconds": 176.6,
+   "s_per_frame": 0.3363
+  },
+  "MOT17Det__MOT17-10": {
+   "n_frames": 654,
+   "seconds": 194.5,
+   "s_per_frame": 0.2974
+  },
+  "MOT17Det__MOT17-11": {
+   "n_frames": 900,
+   "seconds": 355.4,
+   "s_per_frame": 0.3949
+  },
+  "MOT17Det__MOT17-13": {
+   "n_frames": 750,
+   "seconds": 275.6,
+   "s_per_frame": 0.3675
+  },
+  "URFD__adl-01": {
+   "n_frames": 150,
+   "seconds": 53.4,
+   "s_per_frame": 0.3561
+  },
+  "URFD__adl-02": {
+   "n_frames": 180,
+   "seconds": 54.2,
+   "s_per_frame": 0.3013
+  },
+  "URFD__adl-03": {
+   "n_frames": 180,
+   "seconds": 53.8,
+   "s_per_frame": 0.2991
+  },
+  "URFD__adl-04": {
+   "n_frames": 150,
+   "seconds": 47.7,
+   "s_per_frame": 0.3183
+  },
+  "URFD__adl-05": {
+   "n_frames": 180,
+   "seconds": 60.8,
+   "s_per_frame": 0.3376
+  },
+  "URFD__adl-06": {
+   "n_frames": 230,
+   "seconds": 79.7,
+   "s_per_frame": 0.3466
+  },
+  "URFD__adl-07": {
+   "n_frames": 180,
+   "seconds": 52.2,
+   "s_per_frame": 0.29
+  },
+  "URFD__adl-08": {
+   "n_frames": 180,
+   "seconds": 55.4,
+   "s_per_frame": 0.3079
+  },
+  "URFD__adl-09": {
+   "n_frames": 150,
+   "seconds": 44.8,
+   "s_per_frame": 0.2989
+  },
+  "URFD__adl-10": {
+   "n_frames": 300,
+   "seconds": 91.6,
+   "s_per_frame": 0.3054
+  },
+  "URFD__adl-11": {
+   "n_frames": 300,
+   "seconds": 71.6,
+   "s_per_frame": 0.2388
+  },
+  "URFD__adl-12": {
+   "n_frames": 250,
+   "seconds": 50.2,
+   "s_per_frame": 0.201
+  },
+  "URFD__adl-13": {
+   "n_frames": 265,
+   "seconds": 47.8,
+   "s_per_frame": 0.1803
+  },
+  "URFD__adl-14": {
+   "n_frames": 235,
+   "seconds": 39.8,
+   "s_per_frame": 0.1693
+  },
+  "URFD__adl-15": {
+   "n_frames": 275,
+   "seconds": 51.4,
+   "s_per_frame": 0.1868
+  },
+  "URFD__adl-16": {
+   "n_frames": 240,
+   "seconds": 46.2,
+   "s_per_frame": 0.1923
+  },
+  "URFD__adl-17": {
+   "n_frames": 230,
+   "seconds": 38.1,
+   "s_per_frame": 0.1657
+  },
+  "URFD__adl-18": {
+   "n_frames": 265,
+   "seconds": 47.8,
+   "s_per_frame": 0.1803
+  },
+  "URFD__adl-19": {
+   "n_frames": 250,
+   "seconds": 60.5,
+   "s_per_frame": 0.2421
+  },
+  "URFD__adl-20": {
+   "n_frames": 270,
+   "seconds": 53.2,
+   "s_per_frame": 0.1972
+  },
+  "URFD__adl-21": {
+   "n_frames": 280,
+   "seconds": 63.8,
+   "s_per_frame": 0.2279
+  },
+  "URFD__adl-22": {
+   "n_frames": 240,
+   "seconds": 44.5,
+   "s_per_frame": 0.1853
+  },
+  "URFD__adl-23": {
+   "n_frames": 220,
+   "seconds": 41.1,
+   "s_per_frame": 0.187
+  },
+  "URFD__adl-24": {
+   "n_frames": 70,
+   "seconds": 13.2,
+   "s_per_frame": 0.1886
+  },
+  "URFD__adl-25": {
+   "n_frames": 110,
+   "seconds": 17.9,
+   "s_per_frame": 0.1628
+  },
+  "URFD__adl-26": {
+   "n_frames": 95,
+   "seconds": 16.9,
+   "s_per_frame": 0.1778
+  },
+  "URFD__adl-27": {
+   "n_frames": 100,
+   "seconds": 20.0,
+   "s_per_frame": 0.2001
+  },
+  "URFD__adl-28": {
+   "n_frames": 85,
+   "seconds": 14.4,
+   "s_per_frame": 0.1692
+  },
+  "URFD__adl-29": {
+   "n_frames": 125,
+   "seconds": 19.6,
+   "s_per_frame": 0.1569
+  },
+  "URFD__adl-30": {
+   "n_frames": 400,
+   "seconds": 71.4,
+   "s_per_frame": 0.1784
+  },
+  "URFD__adl-31": {
+   "n_frames": 250,
+   "seconds": 50.0,
+   "s_per_frame": 0.2002
+  },
+  "URFD__adl-32": {
+   "n_frames": 200,
+   "seconds": 41.3,
+   "s_per_frame": 0.2063
+  },
+  "URFD__adl-33": {
+   "n_frames": 200,
+   "seconds": 44.7,
+   "s_per_frame": 0.2233
+  },
+  "URFD__adl-34": {
+   "n_frames": 191,
+   "seconds": 41.8,
+   "s_per_frame": 0.2189
+  },
+  "URFD__adl-35": {
+   "n_frames": 280,
+   "seconds": 53.7,
+   "s_per_frame": 0.1917
+  },
+  "URFD__adl-36": {
+   "n_frames": 340,
+   "seconds": 64.4,
+   "s_per_frame": 0.1893
+  },
+  "URFD__adl-37": {
+   "n_frames": 350,
+   "seconds": 73.4,
+   "s_per_frame": 0.2097
+  },
+  "URFD__adl-38": {
+   "n_frames": 345,
+   "seconds": 72.6,
+   "s_per_frame": 0.2104
+  },
+  "URFD__adl-39": {
+   "n_frames": 270,
+   "seconds": 49.6,
+   "s_per_frame": 0.1836
+  },
+  "URFD__adl-40": {
+   "n_frames": 330,
+   "seconds": 61.8,
+   "s_per_frame": 0.1872
+  },
+  "URFD__fall-01": {
+   "n_frames": 160,
+   "seconds": 25.3,
+   "s_per_frame": 0.1583
+  },
+  "URFD__fall-02": {
+   "n_frames": 110,
+   "seconds": 17.9,
+   "s_per_frame": 0.1631
+  },
+  "URFD__fall-03": {
+   "n_frames": 215,
+   "seconds": 35.2,
+   "s_per_frame": 0.1635
+  },
+  "URFD__fall-04": {
+   "n_frames": 96,
+   "seconds": 16.6,
+   "s_per_frame": 0.1732
+  },
+  "URFD__fall-05": {
+   "n_frames": 151,
+   "seconds": 25.5,
+   "s_per_frame": 0.1688
+  },
+  "URFD__fall-06": {
+   "n_frames": 100,
+   "seconds": 19.2,
+   "s_per_frame": 0.1916
+  },
+  "URFD__fall-07": {
+   "n_frames": 156,
+   "seconds": 29.5,
+   "s_per_frame": 0.1894
+  },
+  "URFD__fall-08": {
+   "n_frames": 91,
+   "seconds": 20.0,
+   "s_per_frame": 0.2199
+  },
+  "URFD__fall-09": {
+   "n_frames": 185,
+   "seconds": 36.2,
+   "s_per_frame": 0.1959
+  },
+  "URFD__fall-10": {
+   "n_frames": 130,
+   "seconds": 20.8,
+   "s_per_frame": 0.16
+  },
+  "URFD__fall-11": {
+   "n_frames": 130,
+   "seconds": 23.2,
+   "s_per_frame": 0.1788
+  },
+  "URFD__fall-12": {
+   "n_frames": 110,
+   "seconds": 19.2,
+   "s_per_frame": 0.1743
+  },
+  "URFD__fall-13": {
+   "n_frames": 85,
+   "seconds": 13.7,
+   "s_per_frame": 0.161
+  },
+  "URFD__fall-14": {
+   "n_frames": 61,
+   "seconds": 10.2,
+   "s_per_frame": 0.1675
+  },
+  "URFD__fall-15": {
+   "n_frames": 71,
+   "seconds": 12.5,
+   "s_per_frame": 0.1767
+  },
+  "URFD__fall-16": {
+   "n_frames": 55,
+   "seconds": 8.3,
+   "s_per_frame": 0.1504
+  },
+  "URFD__fall-17": {
+   "n_frames": 95,
+   "seconds": 13.9,
+   "s_per_frame": 0.1462
+  },
+  "URFD__fall-18": {
+   "n_frames": 65,
+   "seconds": 11.5,
+   "s_per_frame": 0.1775
+  },
+  "URFD__fall-19": {
+   "n_frames": 100,
+   "seconds": 15.7,
+   "s_per_frame": 0.1567
+  },
+  "URFD__fall-20": {
+   "n_frames": 110,
+   "seconds": 17.5,
+   "s_per_frame": 0.159
+  },
+  "URFD__fall-21": {
+   "n_frames": 55,
+   "seconds": 8.5,
+   "s_per_frame": 0.1549
+  },
+  "URFD__fall-22": {
+   "n_frames": 56,
+   "seconds": 8.4,
+   "s_per_frame": 0.1499
+  },
+  "URFD__fall-23": {
+   "n_frames": 75,
+   "seconds": 11.3,
+   "s_per_frame": 0.1503
+  },
+  "URFD__fall-24": {
+   "n_frames": 60,
+   "seconds": 9.1,
+   "s_per_frame": 0.1524
+  },
+  "URFD__fall-25": {
+   "n_frames": 85,
+   "seconds": 12.2,
+   "s_per_frame": 0.143
+  },
+  "URFD__fall-26": {
+   "n_frames": 61,
+   "seconds": 8.8,
+   "s_per_frame": 0.1443
+  },
+  "URFD__fall-27": {
+   "n_frames": 92,
+   "seconds": 13.5,
+   "s_per_frame": 0.147
+  },
+  "URFD__fall-28": {
+   "n_frames": 66,
+   "seconds": 9.9,
+   "s_per_frame": 0.1494
+  },
+  "URFD__fall-29": {
+   "n_frames": 99,
+   "seconds": 14.6,
+   "s_per_frame": 0.1474
+  },
+  "URFD__fall-30": {
+   "n_frames": 70,
+   "seconds": 10.8,
+   "s_per_frame": 0.1549
+  },
+  "CAVIAR-INRIA__Browse1": {
+   "n_frames": 1043,
+   "seconds": 122.9,
+   "s_per_frame": 0.1179
+  },
+  "CAVIAR-INRIA__Browse2": {
+   "n_frames": 875,
+   "seconds": 106.1,
+   "s_per_frame": 0.1213
+  },
+  "CAVIAR-INRIA__Browse3": {
+   "n_frames": 911,
+   "seconds": 107.4,
+   "s_per_frame": 0.1179
+  },
+  "CAVIAR-INRIA__Browse_WhileWaiting1": {
+   "n_frames": 791,
+   "seconds": 95.6,
+   "s_per_frame": 0.1209
+  },
+  "CAVIAR-INRIA__Browse_WhileWaiting2": {
+   "n_frames": 1895,
+   "seconds": 245.7,
+   "s_per_frame": 0.1297
+  },
+  "CAVIAR-INRIA__Fight_Chase": {
+   "n_frames": 431,
+   "seconds": 49.5,
+   "s_per_frame": 0.1148
+  },
+  "CAVIAR-INRIA__Fight_RunAway1": {
+   "n_frames": 551,
+   "seconds": 67.7,
+   "s_per_frame": 0.1229
+  },
+  "CAVIAR-INRIA__Fight_RunAway2": {
+   "n_frames": 551,
+   "seconds": 69.3,
+   "s_per_frame": 0.1258
+  },
+  "CAVIAR-INRIA__LeftBag": {
+   "n_frames": 1439,
+   "seconds": 192.5,
+   "s_per_frame": 0.1338
+  },
+  "CAVIAR-INRIA__LeftBag_AtChair": {
+   "n_frames": 1115,
+   "seconds": 151.5,
+   "s_per_frame": 0.1358
+  },
+  "CAVIAR-INRIA__LeftBag_BehindChair": {
+   "n_frames": 1067,
+   "seconds": 146.4,
+   "s_per_frame": 0.1372
+  },
+  "CAVIAR-INRIA__LeftBag_PickedUp": {
+   "n_frames": 1355,
+   "seconds": 174.0,
+   "s_per_frame": 0.1284
+  },
+  "CAVIAR-INRIA__LeftBox": {
+   "n_frames": 863,
+   "seconds": 104.9,
+   "s_per_frame": 0.1216
+  },
+  "CAVIAR-INRIA__Meet_Crowd": {
+   "n_frames": 491,
+   "seconds": 63.0,
+   "s_per_frame": 0.1283
+  },
+  "CAVIAR-INRIA__Meet_Split_3rdGuy": {
+   "n_frames": 923,
+   "seconds": 119.3,
+   "s_per_frame": 0.1293
+  },
+  "CAVIAR-INRIA__Meet_WalkSplit": {
+   "n_frames": 623,
+   "seconds": 73.7,
+   "s_per_frame": 0.1183
+  },
+  "CAVIAR-INRIA__Meet_WalkTogether1": {
+   "n_frames": 707,
+   "seconds": 78.5,
+   "s_per_frame": 0.1111
+  },
+  "CAVIAR-INRIA__Meet_WalkTogether2": {
+   "n_frames": 827,
+   "seconds": 90.9,
+   "s_per_frame": 0.11
+  },
+  "CAVIAR-INRIA__Rest_FallOnFloor": {
+   "n_frames": 1007,
+   "seconds": 112.6,
+   "s_per_frame": 0.1119
+  },
+  "CAVIAR-INRIA__Rest_InChair": {
+   "n_frames": 1007,
+   "seconds": 105.1,
+   "s_per_frame": 0.1044
+  },
+  "CAVIAR-INRIA__Rest_SlumpOnFloor": {
+   "n_frames": 911,
+   "seconds": 105.2,
+   "s_per_frame": 0.1155
+  },
+  "CAVIAR-INRIA__Rest_WiggleOnFloor": {
+   "n_frames": 1295,
+   "seconds": 163.8,
+   "s_per_frame": 0.1265
+  },
+  "CAVIAR-INRIA__Split": {
+   "n_frames": 552,
+   "seconds": 74.7,
+   "s_per_frame": 0.1353
+  },
+  "CAVIAR-INRIA__Walk1": {
+   "n_frames": 611,
+   "seconds": 82.4,
+   "s_per_frame": 0.1349
+  },
+  "CAVIAR-INRIA__Walk2": {
+   "n_frames": 1055,
+   "seconds": 130.7,
+   "s_per_frame": 0.1239
+  },
+  "CAVIAR-INRIA__Walk3": {
+   "n_frames": 1379,
+   "seconds": 160.0,
+   "s_per_frame": 0.1161
+  },
+  "CAVIAR-LISBON__EnterExitCrossingPaths1cor": {
+   "n_frames": 383,
+   "seconds": 43.9,
+   "s_per_frame": 0.1146
+  },
+  "CAVIAR-LISBON__EnterExitCrossingPaths2cor": {
+   "n_frames": 485,
+   "seconds": 53.3,
+   "s_per_frame": 0.1098
+  },
+  "CAVIAR-LISBON__OneLeaveShop1cor": {
+   "n_frames": 295,
+   "seconds": 32.5,
+   "s_per_frame": 0.1102
+  },
+  "CAVIAR-LISBON__OneLeaveShop2cor": {
+   "n_frames": 1119,
+   "seconds": 140.5,
+   "s_per_frame": 0.1256
+  },
+  "CAVIAR-LISBON__OneLeaveShopReenter1cor": {
+   "n_frames": 390,
+   "seconds": 46.9,
+   "s_per_frame": 0.1201
+  },
+  "CAVIAR-LISBON__OneLeaveShopReenter2cor": {
+   "n_frames": 560,
+   "seconds": 66.4,
+   "s_per_frame": 0.1186
+  },
+  "CAVIAR-LISBON__OneShopOneWait1cor": {
+   "n_frames": 1377,
+   "seconds": 160.9,
+   "s_per_frame": 0.1168
+  },
+  "CAVIAR-LISBON__OneShopOneWait2cor": {
+   "n_frames": 1462,
+   "seconds": 179.9,
+   "s_per_frame": 0.123
+  },
+  "CAVIAR-LISBON__OneStopEnter1cor": {
+   "n_frames": 1500,
+   "seconds": 195.1,
+   "s_per_frame": 0.13
+  },
+  "CAVIAR-LISBON__OneStopEnter2cor": {
+   "n_frames": 2725,
+   "seconds": 359.5,
+   "s_per_frame": 0.1319
+  },
+  "CAVIAR-LISBON__OneStopMoveEnter1cor": {
+   "n_frames": 1590,
+   "seconds": 209.0,
+   "s_per_frame": 0.1315
+  },
+  "CAVIAR-LISBON__OneStopMoveEnter2cor": {
+   "n_frames": 2237,
+   "seconds": 295.4,
+   "s_per_frame": 0.1321
+  },
+  "CAVIAR-LISBON__OneStopMoveNoEnter1cor": {
+   "n_frames": 1665,
+   "seconds": 211.1,
+   "s_per_frame": 0.1268
+  },
+  "CAVIAR-LISBON__OneStopMoveNoEnter2cor": {
+   "n_frames": 1035,
+   "seconds": 145.0,
+   "s_per_frame": 0.1401
+  },
+  "CAVIAR-LISBON__OneStopNoEnter1cor": {
+   "n_frames": 725,
+   "seconds": 98.8,
+   "s_per_frame": 0.1362
+  },
+  "CAVIAR-LISBON__OneStopNoEnter2cor": {
+   "n_frames": 1500,
+   "seconds": 196.4,
+   "s_per_frame": 0.1309
+  },
+  "CAVIAR-LISBON__ShopAssistant1cor": {
+   "n_frames": 1675,
+   "seconds": 230.7,
+   "s_per_frame": 0.1377
+  },
+  "CAVIAR-LISBON__ShopAssistant2cor": {
+   "n_frames": 3700,
+   "seconds": 518.0,
+   "s_per_frame": 0.14
+  },
+  "CAVIAR-LISBON__ThreePastShop1cor": {
+   "n_frames": 1650,
+   "seconds": 231.1,
+   "s_per_frame": 0.14
+  },
+  "CAVIAR-LISBON__ThreePastShop2cor": {
+   "n_frames": 1521,
+   "seconds": 219.8,
+   "s_per_frame": 0.1445
+  },
+  "CAVIAR-LISBON__TwoEnterShop1cor": {
+   "n_frames": 1645,
+   "seconds": 230.8,
+   "s_per_frame": 0.1403
+  },
+  "CAVIAR-LISBON__TwoEnterShop2cor": {
+   "n_frames": 1605,
+   "seconds": 218.3,
+   "s_per_frame": 0.136
+  },
+  "CAVIAR-LISBON__TwoEnterShop3cor": {
+   "n_frames": 1149,
+   "seconds": 152.0,
+   "s_per_frame": 0.1323
+  },
+  "CAVIAR-LISBON__TwoLeaveShop1cor": {
+   "n_frames": 1343,
+   "seconds": 168.9,
+   "s_per_frame": 0.1258
+  },
+  "CAVIAR-LISBON__TwoLeaveShop2cor": {
+   "n_frames": 600,
+   "seconds": 75.1,
+   "s_per_frame": 0.1251
+  },
+  "CAVIAR-LISBON__WalkByShop1cor": {
+   "n_frames": 2360,
+   "seconds": 306.7,
+   "s_per_frame": 0.1299
+  },
+  "CAVIAR-INRIA__Browse4": {
+   "n_frames": 1139,
+   "seconds": 169.3,
+   "s_per_frame": 0.1487
+  }
+ }
+}

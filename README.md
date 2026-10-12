@@ -27,7 +27,8 @@ derived from the corpora at the event level.
 | `data/DATA_SOURCES_V2.md` | where each corpus comes from and under what terms |
 | `results/*.csv`, `results/*.json` | every derived table the paper reports, plus the two tables of the run that was **withdrawn** after audit (`WITHDRAWN_*`), kept so the record is complete |
 | `DEFEATERS.md` | the assurance argument's defeaters and their treatment, in full |
-| `RELEASE_MANIFEST.md` | every released file with its SHA-256, as released at tag `v2.0.0-submission`; since that tag only the title lines of this README and of `CITATION.cff` have changed |
+| `results/detector_timings.json` | the detector's wall-clock time per sequence and per frame, with the machine it ran on; added on `main` after the tag |
+| `RELEASE_MANIFEST.md` | every released file with its SHA-256, as released at tag `v2.0.0-submission`; since that tag only the title lines of this README and of `CITATION.cff` have changed, and `results/detector_timings.json` has been added |
 
 ## Reproducing the paper
 
