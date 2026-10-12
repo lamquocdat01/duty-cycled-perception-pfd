@@ -1,10 +1,9 @@
-# Probability of failure on demand of duty-cycled perception monitors
+# Duty-cycled machine-learning perception monitors as periodically inspected protection channels
 
 Code, frozen evaluation protocol and derived data for the article
 
-> *Probability of failure on demand of duty-cycled machine-learning perception monitors:
-> a delay-time inspection model, event-level statistical demonstration, and assurance
-> argument.*
+> *Duty-cycled machine-learning perception monitors as periodically inspected protection
+> channels: choosing the invocation period and the redundancy architecture.*
 
 A camera-based safety monitor that evaluates one frame in every `K` is a protection system
 that inspects its demand periodically. This repository holds everything needed to
@@ -28,7 +27,7 @@ derived from the corpora at the event level.
 | `data/DATA_SOURCES_V2.md` | where each corpus comes from and under what terms |
 | `results/*.csv`, `results/*.json` | every derived table the paper reports, plus the two tables of the run that was **withdrawn** after audit (`WITHDRAWN_*`), kept so the record is complete |
 | `DEFEATERS.md` | the assurance argument's defeaters and their treatment, in full |
-| `RELEASE_MANIFEST.md` | every released file with its SHA-256 |
+| `RELEASE_MANIFEST.md` | every released file with its SHA-256, as released at tag `v2.0.0-submission`; since that tag only the title lines of this README and of `CITATION.cff` have changed |
 
 ## Reproducing the paper
 

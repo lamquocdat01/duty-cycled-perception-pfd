@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or the derived tables, please cite the article."
-title: "Duty-cycled perception monitors: probability of failure on demand"
+title: "Duty-cycled machine-learning perception monitors as periodically inspected protection channels"
 abstract: >-
   Code, frozen evaluation protocol and event-level derived data for a delay-time
   inspection model of duty-cycled machine-learning perception monitors, with an
